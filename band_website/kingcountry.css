@@ -1,0 +1,88 @@
+body {
+    background-image: url(winterpanorama-millstaettersee-archiv-mtggert-perauer-6.jpg);
+    font-family: Walbaum, 'Times New Roman', Times, serif;
+    text-align: left;
+    position: flex;
+}
+.hintergrundband {
+    background-image: url(fkak-newheader_1500x.webp);
+}
+#nav {
+    background-color:  rgb(20, 20, 88);
+    position: fixed;
+    right: 0px;
+    top:0px;
+    border: 1px solid  rgb(20, 20, 88);
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    }
+
+.logo{
+    margin-left: 92%;
+    margin-top: 20px;
+}
+/*die Liste sollte keine Punkte mehr haben*/
+ul{ 
+    list-style-type:none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;}
+/*Link soll horizontal verlaufen und die einzelnen Links links aneinander geordnet werden*/
+li{ 
+    float: left;
+}
+/*Link in der Navigation und eine Box die eine gewisse Größe besitzt*/
+li a {
+    display: block;
+    color: white;
+    padding: 0px 15px 0px;
+   text-decoration: none;}
+  /*Link soll besonders in Olivegrün hervorgehoben werden*/
+  li a:hover {
+  color: rgb(112, 196, 252);
+  }
+div { 
+    padding:30px;
+  
+   background-color: rgb(20, 20, 88);
+   margin-right: 10.5%;
+   margin-left: 20px;
+
+}
+h1 {
+    font-family: Walbaum,'Times New Roman', Times, serif;
+ color: white;
+    text-align: left;
+    font-size: 100px;
+    padding: 20px;
+}
+
+p{ color: white;}
+
+a {
+    color:white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover {
+    color:rgb(112, 196, 252);
+}
+.bild3 {
+   padding: 20px;
+   text-align: center;
+}
+
+.bild1 {
+    padding:20px;
+    text-align:center;
+}
+
+.bild2 {
+    padding:20px;
+    text-align: center;
+}
+.bild4 {
+    padding:20px;
+    text-align: center;
+}
